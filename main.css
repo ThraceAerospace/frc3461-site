@@ -54,7 +54,7 @@ padding: 0px 5px;
 
 .parallax {
   /* The image used */
-  background-image: url("/assets/tiedye.jpg");
+  background-image: url("./assets/tiedye.jpg");
 
   /* Set a specific height */
   height: 100%;
@@ -80,5 +80,5 @@ padding: 0px 5px;
 
 @font-face {
   font-family: 'Orbitron';
- src: url('/assets/Orbitron.ttf') format('truetype');
+ src: url('./assets/Orbitron.ttf') format('truetype');
 }
