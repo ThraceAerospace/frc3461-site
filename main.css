@@ -1,14 +1,28 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
+  background-color: none;
 }
 
 nav{
 
   width: 100%;
   height: 100px;
-background-color: none;
-border-radius: 6px;
+  padding: none;
+  overflow: hidden;
+  background-color: white;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+
 
 nav img {
   height: 70px;
@@ -18,8 +32,53 @@ nav img {
 
 nav li{
 list-style: none;
-display: inline-block;
 float: left;
 line-height: 70px;
 position:  relative;
+background-color: white;
+}
+
+nav li a{
+display: block;
+text-decoration: none;
+font-size: 25px;
+font-family: arial;
+color: #3498db;
+padding: 0px 5px;
+}
+
+#text {
+  width: 100%;
+  
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/assets/tiedye.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bar {
+  width: 100%;
+  height: 90%;
+}
+#teamtext {
+  font-family: 'Orbitron', Fallback, Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-emphasis-color: black;
+  text-shadow: black;
+
+}
+
+@font-face {
+  font-family: 'Orbitron';
+ src: url('/assets/Orbitron.ttf') format('truetype');
 }
